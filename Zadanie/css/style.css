@@ -1,0 +1,75 @@
+/* Global */
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/splash-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.splash-subtitle {
+  font-family: "Noto Serif", serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.splash-title {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.web-name p {
+  font-family: 'Yellowtail', cursive;
+  color: #FFD700;
+  margin: 30px;
+  padding-left: 60px;
+  font-size: 40px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.nav-link ul {
+  list-style-type: none;
+  margin: 40px;
+}
+
+.nav-link li {
+  display: inline;
+  padding: 0 45px 0 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 240px;
+  margin: 10px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  color: #FFFFFF;
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+/*# sourceMappingURL=style.css.map */

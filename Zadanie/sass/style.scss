@@ -2,11 +2,27 @@
 
 $color-dark: #000000;
 $color-light: #FFFFFF;
-$color-gray: #F7F7F7;
+$color-gray: #a0a0b0;
 $color-gold: #FFD700;
 
 $text-main: 'Noto Serif', serif;
 $text-title: 'Roboto', sans-serif;
+
+.page-title {
+	text-align: center;
+	font-size: 45px;
+	font-family: $text-title;
+	margin: 50px 0 10px 0;
+	padding-top: 50px;
+}
+.page-subtitle {
+	text-align: center;
+	font-size: 18px;
+	color: $color-gray;
+	font-style: italic;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+}
 
 /* Splash */
 
@@ -74,3 +90,28 @@ $text-title: 'Roboto', sans-serif;
     background-color: $color-gold;
     border-color: $color-gold;
 }
+
+/* Services */
+
+.services-box {
+	text-align: center;
+	font-family: $text-main;
+	font-size: 14px;
+	color: $color-gray;
+	i {
+		border-style: solid;
+		border-width: 2px;
+		font-size: 70px;
+		border-radius: 50%;
+		color: $color-gold;
+		padding: 20px;
+	}
+	h3 {
+		font-size: 20px;
+		font-family: $text-title;
+		color: $color-dark;
+	}
+}
+
+/* Portfolio */
+

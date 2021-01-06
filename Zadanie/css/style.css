@@ -184,4 +184,83 @@
 .page-footer p {
   padding-top: 20px;
 }
+
+/* Media */
+@media screen and (min-width: 576px) {
+  .web-name p {
+    font-size: 50px;
+  }
+  .nav-link {
+    font-size: 24px;
+  }
+  .nav-link li {
+    padding: 0 30px 15px 0;
+  }
+  .splash-inner {
+    transform: translate(-50%, 100%);
+  }
+  .page-title {
+    font-size: 65px;
+  }
+  .page-subtitle {
+    font-size: 34px;
+  }
+  .services-box {
+    font-size: 20px;
+  }
+  .services-box h3 {
+    font-size: 26px;
+  }
+  .portfolio-box {
+    margin: 25px;
+  }
+  .portfolio-box h3 {
+    font-size: 24px;
+  }
+  .portfolio-box p {
+    font-size: 18px;
+  }
+  .page-footer {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 576px) {
+  .web-name p {
+    font-size: 40px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .splash-inner {
+    transform: translate(-50%, 0%);
+  }
+  .splash-subtitle {
+    font-size: 30px;
+  }
+  .splash-title {
+    font-size: 46px;
+  }
+  .page-title {
+    font-size: 45px;
+  }
+  .page-subtitle {
+    font-size: 24px;
+  }
+  .services-box {
+    font-size: 16px;
+  }
+  .services-box h3 {
+    font-size: 22px;
+  }
+  .portfolio-box h3 {
+    font-size: 20px;
+  }
+  .portfolio-box p {
+    font-size: 16px;
+  }
+  .page-footer {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
